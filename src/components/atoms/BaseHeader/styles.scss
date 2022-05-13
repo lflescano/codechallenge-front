@@ -51,7 +51,30 @@
                 font-size: 12px;
             }
         }
+        ul li{
+            font-family: var(--unnamed-font-family-yaro-cut);
+            font-size: 18px;
+            color: #844797;
+            font-weight: 500;
+        }
     }
+}
+.box-icon-user{
+    
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color:#1ca38c
+    
+}
+
+.icon-user{
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    padding: 3px;
+    // position: absolute;
+    // left: 584px;
+    // top: 22px;
 }
 
 

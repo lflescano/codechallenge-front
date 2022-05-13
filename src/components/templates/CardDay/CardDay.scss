@@ -1,0 +1,56 @@
+.container-card{
+    width: 53rem;
+    margin-right: 1rem;
+    border-top:1px solid transparent;
+    p{
+       font-size: 11px;
+       color: #858BA5;
+       font-family: MyriadPro;
+       display: flex;
+       justify-content: left;
+    }
+    h3{
+        font-family: MyriadPro;
+        color: #502f5e;
+    }   
+}
+
+.card-principal {
+    h1{
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5rem;
+    color: #18a48c;
+    }
+    h2{
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-left: rem;
+    color: #18a48c;
+    border-bottom: 2px solid #DBDADA;
+    }
+   
+}
+
+.card-description{
+    font-size: 12px;
+}
+
+.button-buy{
+    border: solid #502f5e 2px;
+    span{
+        color: #502f5e;
+    }
+}
+.button-buy:hover{
+    background-color: #502f5e;
+    span{
+        color:white;
+    }
+}
+
+

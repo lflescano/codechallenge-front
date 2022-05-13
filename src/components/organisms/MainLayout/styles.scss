@@ -25,13 +25,14 @@ body{
             align-items: center;
 
             .right-layout-content {
-                padding: 45px 45px 0px 45px;
+                padding: 45px 45px 0px 0px;
                 overflow: auto;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
                 align-self: center;
                 min-width: 768px;
+                margin-right: 1rem;
             }
         }
     }

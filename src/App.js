@@ -11,6 +11,8 @@ import UserListView from './views/User/UserList/UserListView';
 import FriendshipListView from './views/Lesson/FriendshipList/FriendshipListView';
 import UserLessonListView from './views/Lesson/UserLessonList/UserLessonListView';
 import UserFriendshipListView from './views/Lesson/UserFriendshipList/UserFriendshipListView';
+import MisDatos from 'views/MisDatos/MisDatos';
+// import  MisDatos  from 'views/MisDatos/MisDatos';
 
 function App() {
     const history = useHistory();
@@ -52,12 +54,14 @@ function App() {
                         }
                         { (load && user) && */}
                         <div>
-                            <Route path='/users' component={UserListView} />
-                            <Route path='/friendships' component={FriendshipListView} />
+                            <Route path='/MiSubscripción' component={UserListView} />
+                            <Route path='/CambiarContraseña' component={FriendshipListView} />
+                            
+                            <Route path='/misdatos' component={MisDatos} />
                             <Route path='/user-lessons/:user' component={UserLessonListView} />
                             <Route path='/user-friendships/:user' component={UserFriendshipListView} />
                             <Route exact path="/">
-                                <Redirect to="/users" />
+                                <Redirect to="/MiSubscripción" />
                             </Route>
                         </div>
                         {/* } */}
