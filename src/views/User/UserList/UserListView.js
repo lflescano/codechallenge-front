@@ -8,7 +8,6 @@ import List from 'components/templates/List';
 import User from "models/User";
 
 import './styles.scss';
-import List2 from 'components/templates/List2';
 
 const UserListView = (props) => {
     const {
@@ -61,7 +60,7 @@ const UserListView = (props) => {
         }, 1500);
     };
 
-    return <List2 title={"Usersxxxx"} />
+    return <List title={"Users"} elements={users} hasMore={hasMore} fetchMoreData={fetchMoreData} showLinks={true}></List>
 }
 
 export default withTranslation()(UserListView);

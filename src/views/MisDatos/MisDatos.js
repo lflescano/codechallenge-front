@@ -1,10 +1,10 @@
-import List2 from 'components/templates/List2'
+import Subscripcion from 'components/templates/Subscripcion'
 import React from 'react'
 
 const MisDatos = () => {
   return (
     <div>
-        <List2 title={"datos"}/>
+        <Subscripcion title={"datos"}/>
     </div>
   )
 }

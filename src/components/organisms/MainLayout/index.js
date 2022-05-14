@@ -1,7 +1,7 @@
 import React from "react";
 
 import Sidebar from "components/molecules/Sidebar";
-import BaseHeader from "components/atoms/BaseHeader";
+// import BaseHeader from "components/atoms/BaseHeader";
 
 import "./styles.scss";
 import { FullHeader } from "components/FullHeader/FullHeader";

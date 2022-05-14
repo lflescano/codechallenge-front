@@ -1,15 +1,15 @@
 import React from "react";
 
 import MainLayout from 'components/organisms/MainLayout';
-import "./List2.scss"
+import "./Subscripcion.scss"
 import CardDay from "./CardDay/CardDay";
 
-const List2 = ({ title}) => {
+const Subscripcion = ({title}) => {
     return (
       <MainLayout>
-        <div className="community-list-header mt-3">
+        <div className="community-list-header">
         <div className="container card container-card">
-            <div className="pt-3">
+            <div className="pt-5">
                 <h3>
                     Mi subscripción
                 </h3>
@@ -30,7 +30,7 @@ const List2 = ({ title}) => {
     );
 }
 
-export default List2;
+export default Subscripcion;
 
 
 

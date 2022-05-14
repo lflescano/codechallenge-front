@@ -30,9 +30,9 @@ return <div className="base-header-container">
                     </div> */}
                     <ul className='list-unstyled d-flex '>
                         <Link to="#" className='text-decoration-none'><li className='me-3'>ANALITICAS</li></Link> 
-                        <Link to="#" className='text-decoration-none'><li className='me-3'>>CASO</li></Link>
-                        <Link to="#" className='text-decoration-none'><li className='me-3'>>DEPENDENCIA</li></Link>
-                        <Link to="#" className='text-decoration-none'><li className='me-3'>>MAGISTRADO </li></Link>
+                        <Link to="#" className='text-decoration-none'><li className='me-3'>{'>'}CASO</li></Link>
+                        <Link to="#" className='text-decoration-none'><li className='me-3'>{'>'}DEPENDENCIA</li></Link>
+                        <Link to="#" className='text-decoration-none'><li className='me-3'>{'>'}MAGISTRADO </li></Link>
                     </ul>
                     <div className="base-header-actions-logout">
                         <Link to="#">

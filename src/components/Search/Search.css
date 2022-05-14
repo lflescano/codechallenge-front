@@ -1,5 +1,5 @@
 .backgroundSearch{
-    background-color: #1ca38c;
+    background-color: #18A48C;
     justify-content: space-between;
     
 }
@@ -13,18 +13,19 @@
 .input{ 
     font-size: 15px;
     margin-right: 5rem;
+    margin-left: 10rem;
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
     padding: 7px;
     border: solid white 2px;
-    background-color: #1ca38c;
+    background-color: #18A48C;
 }
 
 .button-search{
-    background-color: #1ca38c;
+    background-color: #18A48C;
     border: transparent;
     position: absolute;
-    top: 167px;
+    top: 170px;
     right: 87px;
 }
 .icon-search{

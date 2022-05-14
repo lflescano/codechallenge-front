@@ -8,7 +8,6 @@ import List from 'components/templates/List';
 import Friendship from "models/Friendship";
 
 import './styles.scss';
-import List2 from 'components/templates/List2';
 
 const FriendshipListView = (props) => {
     const {
@@ -61,7 +60,7 @@ const FriendshipListView = (props) => {
         }, 1500);
     };
 
-    return <List2 title={"Friendships"}/>
+    return <List title={"Friendships"} elements={friendships} hasMore={hasMore} fetchMoreData={fetchMoreData}></List>
 }
 
 export default withTranslation()(FriendshipListView);

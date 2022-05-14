@@ -54,10 +54,10 @@ function App() {
                         }
                         { (load && user) && */}
                         <div>
-                            <Route path='/MiSubscripción' component={UserListView} />
+                            <Route path='/MisDatos' component={UserListView} />
                             <Route path='/CambiarContraseña' component={FriendshipListView} />
                             
-                            <Route path='/misdatos' component={MisDatos} />
+                            <Route path='/MiSubscripción' component={MisDatos} />
                             <Route path='/user-lessons/:user' component={UserLessonListView} />
                             <Route path='/user-friendships/:user' component={UserFriendshipListView} />
                             <Route exact path="/">
