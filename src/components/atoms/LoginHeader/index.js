@@ -14,8 +14,8 @@ return <div className="login-header-container justify-content-between">
    </div>
    {!isMobile &&
    <div className="login-header-title">
-       <h1 className="login-header-title-text"></h1>
-        <div className="login-header-title-line"></div>
+       {/* <h1 className="login-header-title-text"></h1> */}
+       <div className="login-header-title-line"></div>
    </div>
     }
     {!isMobile && 
